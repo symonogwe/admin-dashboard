@@ -38,7 +38,9 @@ aside {
     background-color: var(--base-color);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    /* grid-template-rows: 1fr 2fr 1fr; */
+    grid-template-rows: 10% 45% 20%;
+    gap: 2.5rem;
 }
 
 .aside-logo {
