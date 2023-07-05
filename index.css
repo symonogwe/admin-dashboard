@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 
 :root {
     --base-color: #72B549;
@@ -8,9 +10,9 @@
     --nav-bg-color: #0A0B0D;
     --base-header-ff: "Bebas Neue", sans-serif;
     --base-paragraph-ff: "League Spartan", sans-serif;
-    --main-header-fs: calc(2.5rem + 2vw);
-    --main-subheader-fs: calc(1.3rem + .9vw);
-    --main-paragraph-fs: calc(1rem + .6vw);
+    --main-header-fs: calc(1.5rem + 1vw);
+    --main-subheader-fs: calc(.9rem + .9vw);
+    --main-paragraph-fs: calc(.7rem + .6vw);
 }
 
 * {
@@ -38,7 +40,6 @@ aside {
     background-color: var(--base-color);
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 2fr 1fr; */
     grid-template-rows: 10% 45% 20%;
     gap: 2.5rem;
 }
@@ -50,6 +51,8 @@ aside {
 
 .aside-logo > h1 {
     grid-column: 2 / 3;
+    font-family: var(--base-header-ff);
+    font-size: var(--main-header-fs);
 }
 
 .aside-logo > img {
@@ -61,6 +64,13 @@ aside {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(6, 40px);
+}
+
+.nav-links > a,
+.account-custom > a {
+    color: var(--paragraph-color);
+    font-size: var(--main-paragraph-fs);
+    font-family: var(--base-paragraph-ff);
 }
 
 .nav-links > a {
@@ -106,7 +116,6 @@ aside {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(3, 40px);
-    /* height: 180px; */
 }
 
 .account-custom > a {
