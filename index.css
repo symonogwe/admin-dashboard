@@ -147,7 +147,33 @@ aside {
 /* HEADER SECTION AREA */
 
 header {
+    border: 2px solid red;
     grid-column: 2 / 3;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 30px minmax(50%, 3fr);
+    grid-template-rows: 25px;
+}
+
+.search-item {
+    width: max(20px, 29%);
+    justify-self: center;
+    align-self: center;
+}
+
+.search-input {
+    background-color: lightslategrey;
+    border: none;
+    border-radius: 20px;
+    color: var(--paragraph-color);
 }
 
 /* MAIN SECTION AREA */
