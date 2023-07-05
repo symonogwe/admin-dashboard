@@ -53,11 +53,13 @@ aside {
     grid-column: 2 / 3;
     font-family: var(--base-header-ff);
     font-size: var(--main-header-fs);
+    align-self: center;
 }
 
 .aside-logo > img {
     width: max(30px, 35%);
     justify-self: center;
+    align-self: center;
 }
 
 .nav-links {
