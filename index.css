@@ -23,10 +23,14 @@ body {
 height: 100vh;
 }
 
+/* DASHBOARD AREA */
+
 .dashboard-page {
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
+
+/* LEFT SIDE SECTION */
 
 aside {
     grid-column: 1 / 2;
@@ -61,6 +65,41 @@ aside {
     grid-column: 2 / 3;
 }
 
+.nav-links > img {
+    grid-column: 1 / 2;
+    justify-self: center;
+}
+
+.nav-links > .home-icon {
+    grid-row: 1 / 2;
+    width: max(20px, 23%);
+}
+
+.nav-links > .user-profile {
+    grid-row: 2 / 3;
+    width: max(20px, 23%);
+}
+
+.nav-links > .user-payments {
+    grid-row: 3 / 4;
+    width: max(20px, 23%);
+}
+
+.nav-links > .user-history {
+    grid-row: 4 / 5;
+    width: max(20px, 23%);
+}
+
+.nav-links > .user-bikes {
+    grid-row: 5 / 6;
+    width: max(22px, 25%);
+}
+
+.nav-links > .user-accessories {
+    grid-row: 6 / 7;
+    width: max(20px, 23%);
+}
+
 .account-custom {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -72,10 +111,13 @@ aside {
     grid-column: 2 / 3;
 }
 
+/* HEADER SECTION AREA */
 
 header {
     grid-column: 2 / 3;
 }
+
+/* MAIN SECTION AREA */
 
 main {
     grid-column: 2 / 3;
