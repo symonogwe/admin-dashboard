@@ -46,6 +46,11 @@ aside {
     grid-column: 2 / 3;
 }
 
+.aside-logo > img {
+    width: max(30px, 35%);
+    justify-self: center;
+}
+
 .nav-links {
     display: grid;
     grid-template-columns: 1fr 2fr;
