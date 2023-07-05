@@ -1,0 +1,33 @@
+
+
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.dashboard-page {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+aside {
+    grid-column: 1 / 2;
+}
+
+header {
+    grid-column: 2 / 3;
+}
+
+main {
+    grid-column: 2 / 3;
+}
+
