@@ -49,6 +49,7 @@ aside {
     grid-template-columns: 1fr;
     grid-template-rows: 10% 45% 20%;
     gap: 2.5rem;
+    min-height: 100vh;
 }
 
 .aside-logo {
