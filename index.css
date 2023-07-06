@@ -178,6 +178,10 @@ header {
     color: var(--paragraph-color);
 }
 
+.search-input:focus {
+    outline: 3px solid var(--sub-color);
+}
+
 .account {
     width: 30%;
     display: grid;
