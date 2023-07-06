@@ -361,3 +361,28 @@ main {
     grid-column: 2 / 3;
     align-self: center;
 }
+
+.card-trending > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    align-self: center;
+    cursor: pointer;
+}
+
+.card-trending > img:nth-child(1) {
+    grid-row: 1 / 2;
+}
+
+.card-trending > img:nth-child(2) {
+    grid-row: 2 / 3;
+}
+
+.card-trending > img:nth-child(3) {
+    grid-row: 3 / 4;
+}
+
+.card-trending > img:nth-child(4) {
+    grid-row: 4 / 5;
+}
