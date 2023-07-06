@@ -309,6 +309,12 @@ main {
     transition: .5s;
 }
 
+.project-h3 {
+    color: var(--base-color);
+    font-family: var(--base-paragraph-ff);
+    padding: .8em;
+}
+
 .main-content-side {
     border: 2px solid red;
     width: 20%;
