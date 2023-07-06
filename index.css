@@ -288,7 +288,6 @@ main {
 }
 
 .card-container {
-    /* border: 2px solid red; */
     width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
