@@ -316,7 +316,6 @@ main {
 }
 
 .main-content-side {
-    /* border: 2px solid red; */
     width: 20%;
     margin: 1.6em 0em;
     display: grid;
@@ -346,4 +345,18 @@ main {
 
 .announcement-grid > p {
     font-size: calc(.5rem + .4vw);
+}
+
+.card-trending {
+    background-color: var(--main-bg-color);
+    color: var(--paragraph-color);
+    border-radius: 10px;
+    font-family: var(--base-paragraph-ff);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.card-trending > p {
+    grid-column: 2 / 3;
 }
