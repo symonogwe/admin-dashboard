@@ -214,9 +214,8 @@ header {
 }
 
 .greeting {
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: minmax(30px, 25%) minmax(90px, 40%);
     width: 50%;
 }
 
@@ -229,7 +228,7 @@ header {
 }
 
 .greeting-text {
-    justify-self: center;
+    justify-self: flex-start;
     align-self: center;
     font-family: var(--base-paragraph-ff);
 }
