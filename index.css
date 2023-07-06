@@ -147,6 +147,7 @@ aside {
 /* HEADER SECTION AREA */
 
 header {
+    border: 1px solid red;
     grid-column: 2 / 3;
 }
 
@@ -204,6 +205,39 @@ header {
     justify-self: center;
     align-self: center;
     font-family: var(--base-paragraph-ff);
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 50% 80%;
+}
+
+.greeting-profile {
+    width: 80px;
+    height: 80px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.greeting-text {
+    justify-self: center;
+    align-self: center;
+    font-family: var(--base-paragraph-ff);
+}
+
+.small-greeting {
+    font-size: calc(.5rem + .6vw);
+}
+
+.bold-greeting {
+    font-size: calc(.6rem + .7vw);
 }
 
 /* MAIN SECTION AREA */
