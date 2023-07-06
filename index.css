@@ -302,6 +302,13 @@ main {
     border-radius: 10px;
 }
 
+.card-container > .card:hover {
+    cursor: pointer;
+    width: 101%;
+    height: 185px;
+    transition: .5s;
+}
+
 .main-content-side {
     /* border: 2px solid red; */
     width: 20%;
