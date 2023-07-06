@@ -147,12 +147,11 @@ aside {
 /* HEADER SECTION AREA */
 
 header {
-    border: 1px solid red;
     grid-column: 2 / 3;
+    /* background-color: var(--main-bg-color); */
 }
 
 .header-1 {
-    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -200,7 +199,7 @@ header {
 }
 
 .profile-name {
-    color: black;
+    color: var(--paragraph-color);
     font-size: calc(.6rem + .7vw);
     justify-self: center;
     align-self: center;
@@ -235,10 +234,12 @@ header {
 
 .small-greeting {
     font-size: calc(.5rem + .6vw);
+    color: var(--paragraph-color);
 }
 
 .bold-greeting {
     font-size: calc(.6rem + .7vw);
+    color: var(--paragraph-color);
 }
 
 .social-btns {
