@@ -282,8 +282,23 @@ main {
 .main-content {
     background-color: var(--sub-base-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 83vh;
 }
 
+.card-container {
+    border: 2px solid red;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
 
+.card-container > .card {
+    border: 1px solid blue;
+}
 
+.main-content-side {
+    border: 2px solid red;
+    width: 20%;
+}
