@@ -242,8 +242,24 @@ header {
 }
 
 .social-btns {
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 40%;
+}
+
+.social-btns > button {
+    background-color: var(--base-color);
+    border: none;
+    color: var(--paragraph-color);
+    font-family: var(--base-paragraph-ff);
+    font-size: calc(.6rem + .4vw);
+    border-radius: 30px;
+    width: 70%;
+    padding: 0.5em .5em;
+    justify-self: center;
+    cursor: pointer;
 }
 
 /* MAIN SECTION AREA */
