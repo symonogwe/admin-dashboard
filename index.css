@@ -216,7 +216,7 @@ header {
 .greeting {
     display: grid;
     grid-template-columns: minmax(30px, 25%) minmax(90px, 40%);
-    width: 50%;
+    width: 44%;
 }
 
 .greeting-profile {
