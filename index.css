@@ -295,10 +295,11 @@ main {
 }
 
 .card-container > .card {
-    border: 1px solid blue;
+    background: url(images/mikkel-bech-yjAFnkLtKY0-unsplash.jpg) no-repeat center center/cover;
 }
 
 .main-content-side {
     border: 2px solid red;
     width: 20%;
 }
+
