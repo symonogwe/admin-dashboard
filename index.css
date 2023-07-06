@@ -319,5 +319,8 @@ main {
     border: 2px solid red;
     width: 20%;
     margin: 1.6em 0em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px;
 }
 
