@@ -310,7 +310,8 @@ main {
 }
 
 .main-content-side {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 20%;
+    margin: 1.6em 0em;
 }
 
