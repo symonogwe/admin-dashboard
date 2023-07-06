@@ -214,8 +214,10 @@ header {
 }
 
 .greeting {
+    border: 1px solid red;
     display: grid;
-    grid-template-columns: 50% 80%;
+    grid-template-columns: 1fr 2fr;
+    width: 50%;
 }
 
 .greeting-profile {
