@@ -316,7 +316,7 @@ main {
 }
 
 .main-content-side {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 20%;
     margin: 1.6em 0em;
     display: grid;
@@ -331,6 +331,19 @@ main {
     font-family: var(--base-paragraph-ff);
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
 }
 
+.card-announcements > .announcement-grid {
+    justify-self: center;
+    text-align: center;
+    padding: .9em .3em;
+}
+
+.announcement-grid > h4 {
+    color: var(--base-color);
+    font-size: calc(.7rem + .5vw);
+}
+
+.announcement-grid > p {
+    font-size: calc(.5rem + .4vw);
+}
