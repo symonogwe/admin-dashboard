@@ -148,7 +148,7 @@ aside {
 
 header {
     grid-column: 2 / 3;
-    /* background-color: var(--main-bg-color); */
+    background-color: var(--main-bg-color);
 }
 
 .header-1 {
