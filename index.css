@@ -168,6 +168,7 @@ header {
     width: max(20px, 29%);
     justify-self: center;
     align-self: center;
+    filter: invert(95%) sepia(6%) saturate(680%) hue-rotate(165deg) brightness(107%) contrast(91%);
 }
 
 .search-input {
