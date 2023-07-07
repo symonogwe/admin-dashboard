@@ -311,6 +311,20 @@ main {
     box-shadow: none;
 }
 
+.card-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 73%;
+}
+
+.card-icon {
+    width: max(30px, 5%);
+    filter: invert(95%) sepia(6%) saturate(680%) hue-rotate(165deg) brightness(107%) contrast(91%);
+    padding: .2em .5em .2em 0em;
+}
+
 .project-h3 {
     color: var(--base-color);
     font-family: var(--base-paragraph-ff);
