@@ -325,6 +325,10 @@ main {
     padding: .2em .5em .2em 0em;
 }
 
+.card-icon:hover {
+    filter: invert(21%) sepia(83%) saturate(4406%) hue-rotate(105deg) brightness(96%) contrast(106%);
+}
+
 .project-h3 {
     color: var(--base-color);
     font-family: var(--base-paragraph-ff);
