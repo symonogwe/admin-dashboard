@@ -300,6 +300,7 @@ main {
     height: 180px;
     border-radius: 10px;
     box-shadow: 5px 10px 30px black;
+    border-left: 4px solid var(--sub-color);
 }
 
 .card-container > .card:hover {
