@@ -367,6 +367,7 @@ main {
     border-radius: 50%;
     grid-column: 1 / 2;
     align-self: center;
+    justify-self: center;
     cursor: pointer;
 }
 
